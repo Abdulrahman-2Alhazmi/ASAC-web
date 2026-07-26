@@ -1,0 +1,10 @@
+# ============================================================
+# .htaccess
+# ASAC Security Configuration
+# Protect sensitive files from direct browser access.
+# ============================================================
+
+<Files "config.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
